@@ -150,7 +150,24 @@
 `,
             [myTiles.tile0,myTiles.tile1,myTiles.tile2],
             TileScale.Sixteen
-        )</field></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="keyonevent" id="!Gn=e2SgvRmqdkomz/T5" x="90" y="430"><field name="button">controller.up</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="Sprite_blockCombine_set" id=";5`N{lpzbcBj.rQ05,S["><field name="property">Sprite.vy@set</field><value name="mySprite"><block type="variables_get" id="[KS$:@f(CK6c}9erQghx"><field name="VAR" id="C)T450pyE++xDe1CS%WF">Ceramic lion</field></block></value><value name="value"><shadow type="math_number" id=";oRbBq)m5Z1f3OA:mMC}"><field name="NUM">-250</field></shadow></value></block></statement></block><block type="keyonevent" id="kJaE,FyRj4|ErnE=ve*|" x="80" y="550"><field name="button">controller.left</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="spritesetimage" id="},M8U`cr5|o(=16rqim_"><value name="sprite"><block type="variables_get" id=",_jZq}#$:ags_/o2,]qy"><field name="VAR" id="C)T450pyE++xDe1CS%WF">Ceramic lion</field></block></value><value name="img"><shadow type="screen_image_picker"><field name="img">img`
+        )</field></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="keyonevent" id="!Gn=e2SgvRmqdkomz/T5" x="90" y="430"><field name="button">controller.up</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="Sprite_blockCombine_set" id=";5`N{lpzbcBj.rQ05,S["><field name="property">Sprite.vy@set</field><value name="mySprite"><block type="variables_get" id="[KS$:@f(CK6c}9erQghx"><field name="VAR" id="C)T450pyE++xDe1CS%WF">Ceramic lion</field></block></value><value name="value"><shadow type="math_number" id=";oRbBq)m5Z1f3OA:mMC}"><field name="NUM">-250</field></shadow></value><next><block type="spritesetimage" id="a;~?IOVSU4aduEO}N]4D"><value name="sprite"><block type="variables_get" id="m~x`XZxPSPB7)rhi!Q2,"><field name="VAR" id="C)T450pyE++xDe1CS%WF">Ceramic lion</field></block></value><value name="img"><shadow type="screen_image_picker" id="k$vy;@*qy:*3Q}1im$UN"><field name="img">img`
+. . . 4 . . . . . . . . . . . . 
+. . 4 . 4 . . . . . . . . . . . 
+. . 4 . . . . 5 5 5 5 . . . . . 
+. . . 4 . . . 5 4 4 5 . . . . . 
+. . 4 . . . . 5 4 8 5 . . . . . 
+. . 4 4 4 4 4 5 5 5 5 . . . . . 
+. . . . 4 4 4 4 4 4 . . . . . . 
+. . . 4 4 4 4 4 4 4 . . . . . . 
+. . . 4 . 4 . 4 . 4 . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field></shadow></value></block></next></block></statement></block><block type="keyonevent" id="kJaE,FyRj4|ErnE=ve*|" x="147" y="591"><field name="button">controller.left</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="spritesetimage" id="},M8U`cr5|o(=16rqim_"><value name="sprite"><block type="variables_get" id=",_jZq}#$:ags_/o2,]qy"><field name="VAR" id="C)T450pyE++xDe1CS%WF">Ceramic lion</field></block></value><value name="img"><shadow type="screen_image_picker"><field name="img">img`
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 

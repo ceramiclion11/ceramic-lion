@@ -100,6 +100,24 @@ controller.right.onEvent(ControllerButtonEvent.Pressed, function () {
 })
 controller.up.onEvent(ControllerButtonEvent.Pressed, function () {
     Ceramic_lion.vy = -250
+    Ceramic_lion.setImage(img`
+. . . 4 . . . . . . . . . . . . 
+. . 4 . 4 . . . . . . . . . . . 
+. . 4 . . . . 5 5 5 5 . . . . . 
+. . . 4 . . . 5 4 4 5 . . . . . 
+. . 4 . . . . 5 4 8 5 . . . . . 
+. . 4 4 4 4 4 5 5 5 5 . . . . . 
+. . . . 4 4 4 4 4 4 . . . . . . 
+. . . 4 4 4 4 4 4 4 . . . . . . 
+. . . 4 . 4 . 4 . 4 . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`)
 })
 let Ceramic_lion: Sprite = null
 scene.setBackgroundImage(img`
