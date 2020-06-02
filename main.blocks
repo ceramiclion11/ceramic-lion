@@ -121,21 +121,21 @@
 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
 `</field></shadow></value><next><block type="variables_set" id="V..~.;LSxvSeoxN3u=t]"><field name="VAR" id="C)T450pyE++xDe1CS%WF">Ceramic lion</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="@hWZk7b?-h=zkiEbxbhP"><value name="img"><shadow type="screen_image_picker" id="XeVM;F,m-6b)U76s#f)N"><field name="img">img`
 . . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . 4 4 . . . . . . . . . . 
-. . . 4 . . 4 . . . . . . . . . 
-. . 4 . . . 4 . . . . . . . . . 
-. 4 . . . 4 . . . 5 5 5 5 5 . . 
-. 4 . . . . . . . 5 4 4 4 5 . . 
-. . 4 4 4 4 4 4 4 5 4 8 8 5 . . 
-. . 4 4 4 4 4 4 4 5 4 8 8 5 . . 
-. . 4 . 4 . 4 . 4 5 5 5 5 5 . . 
-. . 4 . . . 4 . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
+. . 7 . . . . 7 7 7 7 7 7 7 . . 
+. . 7 7 7 7 7 7 . . . . . . . . 
+. . 7 . . . . 7 . . . . . . . . 
+. . 7 . . . . f f f f . . . . . 
+. . 7 f f f f 7 . . 5 . 5 5 . . 
+f f f . . 7 . 7 . . 4 . 4 5 . . 
+. . 7 . . 7 7 4 . 5 4 . 8 5 . . 
+. . 7 . . 7 f f f f f f f f . . 
+. . 7 f f f 7 7 7 7 7 7 7 5 . . 
+. 7 f . . 7 7 . . . . . . . . . 
+. f 7 . . 7 7 . . . . . . . . . 
+f . 7 . . 7 7 . . . . . . . . . 
+. . . . . 7 7 . . . . . . . . . 
+. . . . . 7 7 . . . . . . . . . 
+. . . . . 7 . . . . . . . . . . 
 `</field></shadow></value><value name="kind"><shadow type="spritekind" id="#Q-t5:2yJoMZlGpy[`wI"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="game_control_sprite" id="1CV?kmBBuQz^fI/,lJX$"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="2" _input_init="true"></mutation><value name="sprite"><block type="variables_get" id="Z9_FPEZD[iw7j5b-=qB{"><field name="VAR" id="C)T450pyE++xDe1CS%WF">Ceramic lion</field></block></value><value name="vx"><shadow type="math_number" id="P[Q+GlQ#t~X[TQfE_T`h"><field name="NUM">100</field></shadow></value><value name="vy"><shadow type="math_number" id="D}$GlidDLFG;J~S4B!$~"><field name="NUM">0</field></shadow></value><next><block type="camerafollow" id="lB:B{.H~6#@Ux*[9%Gm-"><value name="sprite"><block type="variables_get" id="S=E3J)8!k7jFAryX5DW4"><field name="VAR" id="C)T450pyE++xDe1CS%WF">Ceramic lion</field></block></value><next><block type="Sprite_blockCombine_change" id="DjX}49p{6QSIfD#09~3~"><field name="property">Sprite.ay@set</field><value name="mySprite"><block type="variables_get" id="A(*(s2=qTGd_to#7R)FA"><field name="VAR" id="C)T450pyE++xDe1CS%WF">Ceramic lion</field></block></value><value name="value"><shadow type="math_number" id="%__pB2up1NyVZ$8~;~2="><field name="NUM">1000</field></shadow></value><next><block type="tilemap_editor" id="*s=n?;Dc$,5*+v%AGa7s"><field name="tilemap">tiles.createTilemap(
             hex`100008000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000202000000000000000000000002020200000000000000020202020202000000000002020200000000000000000000000000000000020200000000000000000000000000000000`,
             img`
