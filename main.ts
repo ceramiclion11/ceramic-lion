@@ -100,6 +100,30 @@ controller.left.onEvent(ControllerButtonEvent.Pressed, function () {
 `)
     Ceramic_lion.image.flipX()
 })
+controller.B.onEvent(ControllerButtonEvent.Pressed, function () {
+    projectile = sprites.createProjectileFromSprite(img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. e e e e e e e e e e e e e e . 
+. . . e d d d d d d d d e . . . 
+. . . e d e d e d e d d e . . . 
+. . e d d d e d e d e d d e . . 
+. e d d d e d e d e d e d d e . 
+. e d d e d e d e d e d e d e . 
+. e d e d e d e d e d e d d e . 
+. e d d e d e d e d e d e d e . 
+. e d d d e d e d e d e d d e . 
+. . e d d d d d d d d d d e . . 
+. . . e e e e e e e e e e . . . 
+. . . . . . . . . . . . . . . . 
+`, Ceramic_lion, 100, 0)
+})
+sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (sprite, otherSprite) {
+    otherSprite.destroy()
+    info.changeLifeBy(-1)
+})
 controller.right.onEvent(ControllerButtonEvent.Pressed, function () {
     Ceramic_lion.setImage(img`
 . . . . . . . . . . . . . . . . 
@@ -141,6 +165,30 @@ controller.up.onEvent(ControllerButtonEvent.Pressed, function () {
 . . . . . . . . . . . . . . . . 
 `)
 })
+sprites.onOverlap(SpriteKind.Player, SpriteKind.Leaf, function (sprite, otherSprite) {
+    otherSprite.destroy()
+    Eenemy = sprites.create(img`
+. . . . c c c c c c . . . . . . 
+. . . c 6 7 7 7 7 6 c . . . . . 
+. . c 7 7 7 7 7 7 7 7 c . . . . 
+. c 6 7 7 7 7 7 7 7 7 6 c . . . 
+. c 7 c 6 6 6 6 c 7 7 7 c . . . 
+. f 7 6 f 6 6 f 6 7 7 7 f . . . 
+. f 7 7 7 7 7 7 7 7 7 7 f . . . 
+. . f 7 7 7 7 6 c 7 7 6 f c . . 
+. . . f c c c c 7 7 6 f 7 7 c . 
+. . c 7 2 7 7 7 6 c f 7 7 7 7 c 
+. c 7 7 2 7 7 c f c 6 7 7 6 c c 
+c 1 1 1 1 7 6 f c c 6 6 6 c . . 
+f 1 1 1 1 1 6 6 c 6 6 6 6 f . . 
+f 6 1 1 1 1 1 6 6 6 6 6 c f . . 
+. f 6 1 1 1 1 1 1 6 6 6 f . . . 
+. . c c c c c c c c c f . . . . 
+`, SpriteKind.Enemy)
+    Eenemy.follow(Ceramic_lion)
+})
+let Eenemy: Sprite = null
+let projectile: Sprite = null
 let Leaf: Sprite = null
 let Ceramic_lion: Sprite = null
 scene.setBackgroundImage(img`
