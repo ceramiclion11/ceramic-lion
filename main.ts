@@ -37,6 +37,25 @@ namespace myTiles {
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
 `
+    //% blockIdentity=images._tile
+    export const tile2 = img`
+. . . . . . . . . . . . . . . . 
+d d . . . . . . d d d d d d d d 
+e d d d d d d d d e e e e e e e 
+e e e e e e e e e e e e b b b b 
+e e e e e e b b e e b b b e e e 
+b b b b b b b e e e b e b e e e 
+e e e e e e e e e e e e e b e e 
+e b e e e e e b e e e e e e e e 
+e e e e e b e e e e e b e e b e 
+e e e e e e e e e e e e e e e e 
+e e b e e e b e e e e e b e e e 
+e e e e e e e e e e e e e e e e 
+. e . . . e . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`
 }
 controller.left.onEvent(ControllerButtonEvent.Pressed, function () {
     Ceramic_lion.setImage(img`
@@ -80,7 +99,7 @@ controller.right.onEvent(ControllerButtonEvent.Pressed, function () {
 `)
 })
 controller.up.onEvent(ControllerButtonEvent.Pressed, function () {
-    Ceramic_lion.vy = 500
+    Ceramic_lion.vy = -250
 })
 let Ceramic_lion: Sprite = null
 scene.setBackgroundImage(img`
@@ -223,21 +242,21 @@ Ceramic_lion = sprites.create(img`
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
 `, SpriteKind.Player)
-controller.moveSprite(Ceramic_lion, 100, 50)
+controller.moveSprite(Ceramic_lion, 100, 0)
 scene.cameraFollowSprite(Ceramic_lion)
 Ceramic_lion.ay += 1000
 tiles.setTilemap(tiles.createTilemap(
-            hex`100008000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000`,
+            hex`100008000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000202000000000000000000000002020200000000000000020202020202000000000002020200000000000000000000000000000000020200000000000000000000000000000000`,
             img`
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
+. . . . . . . . . 2 2 . . . . . 
+. . . . . . 2 2 2 . . . . . . . 
+2 2 2 2 2 2 . . . . . 2 2 2 . . 
+. . . . . . . . . . . . . . 2 2 
 . . . . . . . . . . . . . . . . 
 `,
-            [myTiles.tile0,myTiles.tile1],
+            [myTiles.tile0,myTiles.tile1,myTiles.tile2],
             TileScale.Sixteen
         ))
