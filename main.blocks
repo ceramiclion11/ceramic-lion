@@ -1,4 +1,4 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="-?+xNU(Cl/n5d8LBRj@n">Player</variable><variable type="KIND_SpriteKind" id="$q/j}-u+U3UjU(|j=(gM">Projectile</variable><variable type="KIND_SpriteKind" id="er%W/TVc5GF[2LRC+698">Food</variable><variable type="KIND_SpriteKind" id="2ip5}:0hv$5wKtXsy@GG">Enemy</variable><variable id="l?Q1?BQbu{/Q{,cGvCWu">mySprite</variable><variable id="C)T450pyE++xDe1CS%WF">Ceramic lion</variable><variable id="!cf.fn/wGlnAKTbwz$,@">picture</variable><variable type="BLOCKLY_TILESET_TYPE" id="khgzfdmw*[5b=W82!~Sr">0;16;16;0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</variable><variable type="BLOCKLY_TILESET_TYPE" id="w;8T~8?%={?6|s]R/_hH">1;16;16;0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</variable><variable type="BLOCKLY_TILESET_TYPE" id="Fq;RO(s=W%R5yyq=P_3(">2;16;16;0000000000000000dd000000dddddddddeddddddedeeeeeeeeeeeeeeeeeebbbbeeeeeebbeebbebeebbbbbbebeeebebeeeeeeeeeeeeeebeeebeeeeebeeeeeeeeeeeeebeeeeebeeeebeeeeeeeeeeeeeeeeeeebeeebeeeeebeeeeeeeeeeeeeeeeeee000e00000000000000000000000000000000000000000000000000000000000</variable></variables><block type="pxt-on-start" id="|TYq}oI%`kVQJEQg~W@7" x="0" y="0"><statement name="HANDLER"><block type="gamesetbackgroundimage" id="Ytk%Bz#-|%16x$y}kU$h"><value name="img"><shadow type="background_image_picker" id="vgjZB^6Q|[37/L$Gg@1|"><field name="img">img`
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="BLOCKLY_TILESET_TYPE" id="KpDPuA,~V`D1,!K?A+d{">0;16;16;0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</variable><variable type="BLOCKLY_TILESET_TYPE" id="j=q{6MdYT7qUh-wQ~xQ*">1;16;16;7777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777</variable><variable type="BLOCKLY_TILESET_TYPE" id="DZ=WoOk1YUCCuYMB2h-w">2;16;16;0000000000000000dd000000dddddddddeddddddedeeeeeeeeeeeeeeeeeebbbbeeeeeebbeebbebeebbbbbbebeeebebeeeeeeeeeeeeeebeeebeeeeebeeeeeeeeeeeeebeeeeebeeeebeeeeeeeeeeeeeeeeeeebeeebeeeeebeeeeeeeeeeeeeeeeeee000e00000000000000000000000000000000000000000000000000000000000</variable><variable type="BLOCKLY_TILESET_TYPE" id="QI):k,==S?Ot=ZEVHYks">3;16;16;0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</variable><variable id="l?Q1?BQbu{/Q{,cGvCWu">Leaf</variable><variable id="C)T450pyE++xDe1CS%WF">Ceramic lion</variable><variable id="!cf.fn/wGlnAKTbwz$,@">picture</variable><variable id="`b-x`S.2F[;,fh3Eof.8">value</variable><variable id="Hj@}06R8O}Ny:,rQE*nc">list</variable><variable type="KIND_SpriteKind" id="-?+xNU(Cl/n5d8LBRj@n">Player</variable><variable type="KIND_SpriteKind" id="$q/j}-u+U3UjU(|j=(gM">Projectile</variable><variable type="KIND_SpriteKind" id="er%W/TVc5GF[2LRC+698">Food</variable><variable type="KIND_SpriteKind" id="2ip5}:0hv$5wKtXsy@GG">Enemy</variable><variable type="KIND_SpriteKind" id="PZa-m][ReRx~k9%aqU+a">Leaf</variable></variables><block type="pxt-on-start" id="|TYq}oI%`kVQJEQg~W@7" x="0" y="0"><statement name="HANDLER"><block type="gamesetbackgroundimage" id="Ytk%Bz#-|%16x$y}kU$h"><value name="img"><shadow type="background_image_picker" id="vgjZB^6Q|[37/L$Gg@1|"><field name="img">img`
 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 
 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 
 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 
@@ -137,7 +137,7 @@ f . 7 . . 7 7 . . . . . . . . .
 . . . . . 7 7 . . . . . . . . . 
 . . . . . 7 . . . . . . . . . . 
 `</field></shadow></value><value name="kind"><shadow type="spritekind" id="#Q-t5:2yJoMZlGpy[`wI"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="game_control_sprite" id="1CV?kmBBuQz^fI/,lJX$"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="2" _input_init="true"></mutation><value name="sprite"><block type="variables_get" id="Z9_FPEZD[iw7j5b-=qB{"><field name="VAR" id="C)T450pyE++xDe1CS%WF">Ceramic lion</field></block></value><value name="vx"><shadow type="math_number" id="P[Q+GlQ#t~X[TQfE_T`h"><field name="NUM">100</field></shadow></value><value name="vy"><shadow type="math_number" id="D}$GlidDLFG;J~S4B!$~"><field name="NUM">0</field></shadow></value><next><block type="camerafollow" id="lB:B{.H~6#@Ux*[9%Gm-"><value name="sprite"><block type="variables_get" id="S=E3J)8!k7jFAryX5DW4"><field name="VAR" id="C)T450pyE++xDe1CS%WF">Ceramic lion</field></block></value><next><block type="Sprite_blockCombine_change" id="DjX}49p{6QSIfD#09~3~"><field name="property">Sprite.ay@set</field><value name="mySprite"><block type="variables_get" id="A(*(s2=qTGd_to#7R)FA"><field name="VAR" id="C)T450pyE++xDe1CS%WF">Ceramic lion</field></block></value><value name="value"><shadow type="math_number" id="%__pB2up1NyVZ$8~;~2="><field name="NUM">1000</field></shadow></value><next><block type="tilemap_editor" id="*s=n?;Dc$,5*+v%AGa7s"><field name="tilemap">tiles.createTilemap(
-            hex`100008000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000202000000000000000000000002020200000000000000020202020202000000000002020200000000000000000000000000000000020200000000000000000000000000000000`,
+            hex`100008000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010100000202000000000000000000000102020200000000010100020202020202000000000002020201000000000000000000000000000000020200000000000000000000000000000000`,
             img`
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
@@ -148,18 +148,9 @@ f . 7 . . 7 7 . . . . . . . . .
 . . . . . . . . . . . . . . 2 2 
 . . . . . . . . . . . . . . . . 
 `,
-            [myTiles.tile0,myTiles.tile1,myTiles.tile2],
+            [myTiles.tile0,myTiles.tile1,myTiles.tile2,myTiles.tile3],
             TileScale.Sixteen
-        )</field></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="keyonevent" id="!Gn=e2SgvRmqdkomz/T5" x="90" y="430"><field name="button">controller.up</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="Sprite_blockCombine_set" id=";5`N{lpzbcBj.rQ05,S["><field name="property">Sprite.vy@set</field><value name="mySprite"><block type="variables_get" id="[KS$:@f(CK6c}9erQghx"><field name="VAR" id="C)T450pyE++xDe1CS%WF">Ceramic lion</field></block></value><value name="value"><shadow type="math_number" id=";oRbBq)m5Z1f3OA:mMC}"><field name="NUM">-250</field></shadow></value><next><block type="spritesetimage" id="a;~?IOVSU4aduEO}N]4D"><value name="sprite"><block type="variables_get" id="m~x`XZxPSPB7)rhi!Q2,"><field name="VAR" id="C)T450pyE++xDe1CS%WF">Ceramic lion</field></block></value><value name="img"><shadow type="screen_image_picker" id="k$vy;@*qy:*3Q}1im$UN"><field name="img">img`
-. . . 4 . . . . . . . . . . . . 
-. . 4 . 4 . . . . . . . . . . . 
-. . 4 . . . . 5 5 5 5 . . . . . 
-. . . 4 . . . 5 4 4 5 . . . . . 
-. . 4 . . . . 5 4 8 5 . . . . . 
-. . 4 4 4 4 4 5 5 5 5 . . . . . 
-. . . . 4 4 4 4 4 4 . . . . . . 
-. . . 4 4 4 4 4 4 4 . . . . . . 
-. . . 4 . 4 . 4 . 4 . . . . . . 
+        )</field><next><block type="pxt_controls_for_of" id=":zX@w4-KWVLBu$jLg1am"><value name="VAR"><shadow type="variables_get_reporter" id="6/d;j!FqA#0RGLMNsz!F"><field name="VAR" id="`b-x`S.2F[;,fh3Eof.8">value</field></shadow></value><value name="LIST"><shadow type="variables_get" id="rl2(uv1lu[@+@i=l;UeA"><field name="VAR" id="Hj@}06R8O}Ny:,rQE*nc">list</field></shadow><block type="mapgettilestype" id="wVSW+v!Rby]@-Mqh8eQI"><value name="tile"><shadow type="tileset_tile_picker" id="CrlKKW.x`Pu[LY6R,wov"><field name="tile">myTiles.tile1</field></shadow></value></block></value><statement name="DO"><block type="variables_set" id="LQ%rZvb*3Hdmk!fNsYqp"><field name="VAR" id="l?Q1?BQbu{/Q{,cGvCWu">Leaf</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="dF3~qB6/tgYp0t/EK-B0"><value name="img"><shadow type="screen_image_picker" id="B6((Ba*2T.F?-P!f-z%e"><field name="img">img`
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
@@ -167,7 +158,48 @@ f . 7 . . 7 7 . . . . . . . . .
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
-`</field></shadow></value></block></next></block></statement></block><block type="keyonevent" id="kJaE,FyRj4|ErnE=ve*|" x="147" y="591"><field name="button">controller.left</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="spritesetimage" id="},M8U`cr5|o(=16rqim_"><value name="sprite"><block type="variables_get" id=",_jZq}#$:ags_/o2,]qy"><field name="VAR" id="C)T450pyE++xDe1CS%WF">Ceramic lion</field></block></value><value name="img"><shadow type="screen_image_picker"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . 8 8 . . . . . . . . . 
+. . . . . 8 6 8 . . . . . . . . 
+. . . . . . 8 6 8 . . . . . . . 
+. . . . . . . 8 6 8 . . . . . . 
+. . . . . . . 8 6 6 . . . . . . 
+. . . . . . . 8 6 7 6 . . . . . 
+. . . . . . 6 7 6 5 6 . . . . . 
+. . . . . 6 5 6 7 5 8 . . . . . 
+. . . . 6 5 7 7 5 8 6 8 . . . . 
+. . . . 6 5 6 5 6 8 6 8 . . . . 
+. . . . 8 7 6 7 8 8 6 8 . . . . 
+. . . . 8 7 6 7 8 6 6 8 . . . . 
+. . . . 8 7 6 7 7 6 6 8 . . . . 
+. . . . 8 7 7 6 7 6 8 . . . . . 
+. . . . . 8 7 6 7 8 . . . . . . 
+. . . . . . 8 7 6 8 . . . . . . 
+`</field></shadow></value><value name="kind"><shadow type="spritekind" id="YKE1]Xp-!#8$@m4+8fsQ"><field name="MEMBER">Leaf</field></shadow></value></block></value><next><block type="mapplaceonrandomtile" id="PiJuf6~o+@Tn:k@NR$y+"><value name="sprite"><block type="variables_get" id="hPG:H]xF;Fg+#JgPFk7}"><field name="VAR" id="l?Q1?BQbu{/Q{,cGvCWu">Leaf</field></block></value><value name="tile"><shadow type="tileset_tile_picker" id="NHPYXS@}WaW*xel|yX7G"><field name="tile">myTiles.tile1</field></shadow></value><next><block type="mapsettileat" id="cOYKxkZ/%-I0U!K}|0L@"><value name="tile"><shadow type="tileset_tile_picker" id="!%Y6IRB?cFq;3gE,D[KJ"><field name="tile">myTiles.tile0</field></shadow></value><value name="loc"><shadow type="mapgettile" id="rJwSBw:FpKQ6gCmOq5PH"><value name="col"><shadow type="math_number" id="a~!p*G|!tPuW%0BaLo6U"><field name="NUM">0</field></shadow></value><value name="row"><shadow type="math_number" id="jMajZQoI?}ii12_q8w:M"><field name="NUM">0</field></shadow></value></shadow><block type="variables_get" id="(+C#jo[gx(MRl+D7${No"><field name="VAR" id="`b-x`S.2F[;,fh3Eof.8">value</field></block></value></block></next></block></next></block></statement></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="keyonevent" id="kJaE,FyRj4|ErnE=ve*|" x="10" y="690"><field name="button">controller.left</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="spritesetimage" id="},M8U`cr5|o(=16rqim_"><value name="sprite"><block type="variables_get" id=",_jZq}#$:ags_/o2,]qy"><field name="VAR" id="C)T450pyE++xDe1CS%WF">Ceramic lion</field></block></value><value name="img"><shadow type="screen_image_picker"><field name="img">img`
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
@@ -201,7 +233,24 @@ f . 7 . . 7 7 . . . . . . . . .
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
-`</field></block></value><next><block type="Image_flipX" id="irteUxHCBApl[r%TRbBw"><value name="picture"><block type="spriteimage" id="?~td4`n[uGLa=6=pbYA~"><value name="sprite"><block type="variables_get" id="l3kRzXKTBf4?4Ym1l1Q2"><field name="VAR" id="C)T450pyE++xDe1CS%WF">Ceramic lion</field></block></value></block></value></block></next></block></statement></block><block type="keyonevent" id="e=DGR_b2l8STm`!vNxnC" x="100" y="790"><field name="button">controller.right</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="spritesetimage" id="?5V+dt92z2f5q8t`3^/W"><value name="sprite"><block type="variables_get" id="c0;kC2D(=eAYYHJ_fz,b"><field name="VAR" id="C)T450pyE++xDe1CS%WF">Ceramic lion</field></block></value><value name="img"><shadow type="screen_image_picker"><field name="img">img`
+`</field></block></value><next><block type="Image_flipX" id="irteUxHCBApl[r%TRbBw"><value name="picture"><block type="spriteimage" id="?~td4`n[uGLa=6=pbYA~"><value name="sprite"><block type="variables_get" id="l3kRzXKTBf4?4Ym1l1Q2"><field name="VAR" id="C)T450pyE++xDe1CS%WF">Ceramic lion</field></block></value></block></value></block></next></block></statement></block><block type="keyonevent" id="!Gn=e2SgvRmqdkomz/T5" x="630" y="710"><field name="button">controller.up</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="Sprite_blockCombine_set" id=";5`N{lpzbcBj.rQ05,S["><field name="property">Sprite.vy@set</field><value name="mySprite"><block type="variables_get" id="[KS$:@f(CK6c}9erQghx"><field name="VAR" id="C)T450pyE++xDe1CS%WF">Ceramic lion</field></block></value><value name="value"><shadow type="math_number" id=";oRbBq)m5Z1f3OA:mMC}"><field name="NUM">-250</field></shadow></value><next><block type="spritesetimage" id="a;~?IOVSU4aduEO}N]4D"><value name="sprite"><block type="variables_get" id="m~x`XZxPSPB7)rhi!Q2,"><field name="VAR" id="C)T450pyE++xDe1CS%WF">Ceramic lion</field></block></value><value name="img"><shadow type="screen_image_picker" id="k$vy;@*qy:*3Q}1im$UN"><field name="img">img`
+. . . 4 . . . . . . . . . . . . 
+. . 4 . 4 . . . . . . . . . . . 
+. . 4 . . . . 5 5 5 5 . . . . . 
+. . . 4 . . . 5 4 4 5 . . . . . 
+. . 4 . . . . 5 4 8 5 . . . . . 
+. . 4 4 4 4 4 5 5 5 5 . . . . . 
+. . . . 4 4 4 4 4 4 . . . . . . 
+. . . 4 4 4 4 4 4 4 . . . . . . 
+. . . 4 . 4 . 4 . 4 . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field></shadow></value></block></next></block></statement></block><block type="keyonevent" id="e=DGR_b2l8STm`!vNxnC" x="230" y="930"><field name="button">controller.right</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="spritesetimage" id="?5V+dt92z2f5q8t`3^/W"><value name="sprite"><block type="variables_get" id="c0;kC2D(=eAYYHJ_fz,b"><field name="VAR" id="C)T450pyE++xDe1CS%WF">Ceramic lion</field></block></value><value name="img"><shadow type="screen_image_picker"><field name="img">img`
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 

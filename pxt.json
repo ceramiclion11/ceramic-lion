@@ -1,7 +1,8 @@
 {
     "name": "CERAMIC LION",
     "dependencies": {
-        "device": "*"
+        "device": "*",
+        "CERAMIC LION": "github:ceramiclion11/ceramic-lion#master"
     },
     "description": "",
     "files": [
